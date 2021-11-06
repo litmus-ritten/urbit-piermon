@@ -1,0 +1,9 @@
+[Unit]
+Description=Record Urbit pier size
+
+[Service]
+Type=simple
+WorkingDirectory=[YOUR WORKING DIRECTORY]
+ExecStart=/usr/bin/python3 [PATH TO PIERMON] -i [PIER DIRECTORY] -o [OUTPUT PATH/piersize.csv]
+User=[YOUR USER NAME]
+Group=[YOUR USER GROUP]
